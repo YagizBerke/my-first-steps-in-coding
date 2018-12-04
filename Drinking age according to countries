@@ -1,0 +1,11 @@
+# turkey = 1 , usa = 2 and uk = 3
+age = x
+place = y
+
+
+if age < 18 and place == 1 or age < 16 and place == 3 or age < 21 and place == 2:
+    print('You cant take liquor')
+elif age == 18 and place == 1 or age == 16 and place == 3 or age == 21 and place == 2:
+    print('You can take liquor')
+else:
+    print('You can take liquor')
